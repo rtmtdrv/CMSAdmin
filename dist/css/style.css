@@ -1,97 +1,176 @@
 body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background: #f4f4f4;
+    height: 100%vh;
+
 }
 
 /* Navbar */
-
 .navbar {
-    min-height: 33px !important;
-    margin-bottom: 0;
-    border-radius: 0;
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-    padding-top: 6px !important;
-    padding-bottom: 0px !important;
-    height: 33px;
+.navbar-nav > li > a,
+.navbar-brand {
+  padding-top: 6px !important;
+  padding-bottom: 0px !important;
+  height: 33px;
 }
 
 .navbar-default {
-    background-color: #e74c3c;
-    border-color: #c0392b;
-  }
-  .navbar-default .navbar-brand {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-brand:hover,
-  .navbar-default .navbar-brand:focus {
-    color: #ffbbbc;
-  }
-  .navbar-default .navbar-text {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus {
-    color: #ffbbbc;
-  }
-  .navbar-default .navbar-nav > .active > a,
-  .navbar-default .navbar-nav > .active > a:hover,
-  .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffbbbc;
-    background-color: #c0392b;
-  }
-  .navbar-default .navbar-nav > .open > a,
-  .navbar-default .navbar-nav > .open > a:hover,
-  .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffbbbc;
-    background-color: #c0392b;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: #c0392b;
-  }
-  .navbar-default .navbar-toggle:hover,
-  .navbar-default .navbar-toggle:focus {
-    background-color: #c0392b;
-  }
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ecf0f1;
-  }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-color: #ecf0f1;
-  }
-  .navbar-default .navbar-link {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-link:hover {
-    color: #ffbbbc;
-  }
-  
-  /* Panels & Other Areas */
-  
-  .main-color-bg {
-    background-color: #e74c3c !important;
-    border-color: #c0392b !important;
+  background-color: #9e66bf;
+  border-color: #5c007b;
+}
+.navbar-default .navbar-brand {
+  color: #efecf1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fdbbff;
+}
+.navbar-default .navbar-text {
+  color: #efecf1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #efecf1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fdbbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #5c007b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fdbbff;
+  background-color: #5c007b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #5c007b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #5c007b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #efecf1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #efecf1;
+}
+.navbar-default .navbar-link {
+  color: #efecf1;
+}
+.navbar-default .navbar-link:hover {
+  color: #fdbbff;
+}
+
+/* Panels & Other Areas */
+.main-color-bg {
+  background-color: #9e66bf !important;
+  border-color: #5c007b !important;
+  color: white !important;
+}
+
+.dash-box {
+    text-align: center;
+}
+
+/* Header */
+#header {
+  background: #333333;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create {
+  padding-top: 23px;
+}
+
+/* logo */
+.name-logo {
+  background: white;
+  border-radius: 100%;
+  padding: 4px 4px;
+  color: #9e66bf ;
+  font-weight: 700;
+  font-size: 0.5em;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+.name-logo-text {
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+/* small adjustments */
+.gear {
+    position: relative;
+    top:5.5px;
+}
+
+.small-text {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a {
+  color: #333333;
+}
+
+/* Progress Bars */
+.progress-bar {
+  background: #333333;
+  color: white;
+}
+
+/* Footer */
+#footer {
+    background: #333333;
     color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #c0392b;
+  }
+  .navbar-brand {
+    margin-top: 10px;
   }
 
 
-  @media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #ecf0f1;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-      color: #ffbbbc;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #ffbbbc;
-      background-color: #c0392b;
-    }
-  }
-
+}
