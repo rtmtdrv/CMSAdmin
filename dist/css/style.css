@@ -1,8 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background: #f4f4f4;
-    height: 100%vh;
-
+    margin-bottom: 90px;
 }
 
 /* Navbar */
@@ -76,7 +80,7 @@ body {
 /* Panels & Other Areas */
 .main-color-bg {
   background-color: #9e66bf !important;
-  border-color: #5c007b !important;
+  border-color: #8a58a7 !important;
   color: white !important;
 }
 
@@ -116,13 +120,45 @@ body {
 /* small adjustments */
 .gear {
     position: relative;
-    top:5.5px;
+    top:5px;
 }
 
 .small-text {
+    font-weight: 200;
     vertical-align: middle;
     position: relative;
     top: -2px;
+}
+
+.purple-btn {
+    border-color: #8a58a7 !important;
+    background-color: #9e66bf !important; 
+}
+
+.purple-btn:hover {
+    background-color: #8a58a7 !important;
+}
+
+.create-btn {
+    border-color: white !important;
+    background-color: #9e66bf !important; 
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.create-btn:hover {
+    color: white !important;
+    background-color: #8a58a7 !important;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: white !important;
+    background-color: #8a58a7 !important;
+}
+
+.well {
+    /* background-color: white; */
 }
 
 /* Breadcrumb */
@@ -141,6 +177,10 @@ body {
   color: white;
 }
 
+#login {
+    margin-top: 30px;
+}
+
 /* Footer */
 #footer {
     background: #333333;
@@ -148,9 +188,10 @@ body {
     text-align: center;
     padding: 30px;
     margin-top: 30px;
-    /* position: absolute;
+    position: absolute;
   bottom: 0;
-  width: 100%; */
+  width: 100%;
+  height: 90px;
 }
 
 
