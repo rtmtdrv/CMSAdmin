@@ -157,10 +157,6 @@ body {
     background-color: #8a58a7 !important;
 }
 
-.well {
-    /* background-color: white; */
-}
-
 /* Breadcrumb */
 .breadcrumb {
   background: #cccccc;
@@ -189,9 +185,9 @@ body {
     padding: 30px;
     margin-top: 30px;
     position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 90px;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
 }
 
 
@@ -212,6 +208,5 @@ body {
   .navbar-brand {
     margin-top: 10px;
   }
-
 
 }

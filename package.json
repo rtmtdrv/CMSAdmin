@@ -1,0 +1,23 @@
+{
+  "name": "CMSAdmin",
+  "version": "1.0.0",
+  "description": "Messing around with Bootstrap 3.3.7<br> <br> • https://work.smarchal.com/twbscolor/ - generate bootstrap navbar code • CKEditor4 CDN (WYSIWYG editor)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages dist -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtmtdrv/CMSAdmin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtmtdrv/CMSAdmin/issues"
+  },
+  "homepage": "https://rtmtdrv.github.io/CMSAdmin",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
