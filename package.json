@@ -4,7 +4,7 @@
   "description": "Messing around with Bootstrap 3.3.7<br> <br> • https://work.smarchal.com/twbscolor/ - generate bootstrap navbar code • CKEditor4 CDN (WYSIWYG editor)",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages dist -d"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
